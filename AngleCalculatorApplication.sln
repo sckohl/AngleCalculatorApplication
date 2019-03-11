@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngleCalculatorApplication", "AngleCalculatorApplication\AngleCalculatorApplication.csproj", "{88EEE12F-8184-4E2C-97E1-7234D0EA4C6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProcessing", "DataProcessing\DataProcessing.csproj", "{562ADCB5-38E2-40CF-A697-AD72CA7E1A1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88EEE12F-8184-4E2C-97E1-7234D0EA4C6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88EEE12F-8184-4E2C-97E1-7234D0EA4C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88EEE12F-8184-4E2C-97E1-7234D0EA4C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88EEE12F-8184-4E2C-97E1-7234D0EA4C6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562ADCB5-38E2-40CF-A697-AD72CA7E1A1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562ADCB5-38E2-40CF-A697-AD72CA7E1A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562ADCB5-38E2-40CF-A697-AD72CA7E1A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562ADCB5-38E2-40CF-A697-AD72CA7E1A1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3DA6E9A-A495-4B12-918A-597E19634038}
+	EndGlobalSection
+EndGlobal
