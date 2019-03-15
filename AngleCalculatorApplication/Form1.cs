@@ -36,5 +36,26 @@ namespace AngleCalculatorApplication
 
 
         }
+
+        public void btn_Add_Click(object sender, EventArgs e)
+        {
+            //textBox1.Text = String.Empty;
+            //textBox2.Text = string.Empty;
+
+            List<DataProcessing.Class1> calcList = new List<DataProcessing.Class1>();
+            calcList.Add(new DataProcessing.Class1(Convert.ToInt32(textBox1.Text), Convert.ToInt32(textBox2.Text)));
+
+          
+            foreach (DataProcessing.Class1 i in calcList)
+            {
+                string message = Convert.ToString(calcList);
+                MessageBox.Show(message);
+            }
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

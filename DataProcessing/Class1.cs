@@ -1,7 +1,6 @@
 ﻿using System.Windows.Forms;
 using System;
-
-
+using System.Collections.Generic;
 
 namespace DataProcessing
 {
@@ -28,4 +27,11 @@ namespace DataProcessing
 
     }
 
+    //public class CalcList
+    //{
+    //    public CalcList()
+    //    {
+    //        List<Class1> calcList = new List<Class1>();
+    //    }
+    //}
 }

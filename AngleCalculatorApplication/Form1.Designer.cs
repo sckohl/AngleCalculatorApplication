@@ -34,6 +34,8 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.btn_Calculate = new System.Windows.Forms.Button();
+            this.btn_Add = new System.Windows.Forms.Button();
+            this.listView1 = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // btn_HelloWord
@@ -89,11 +91,32 @@
             this.btn_Calculate.UseVisualStyleBackColor = true;
             this.btn_Calculate.Click += new System.EventHandler(this.btn_Calculate_Click);
             // 
+            // btn_Add
+            // 
+            this.btn_Add.Location = new System.Drawing.Point(320, 394);
+            this.btn_Add.Name = "btn_Add";
+            this.btn_Add.Size = new System.Drawing.Size(75, 23);
+            this.btn_Add.TabIndex = 6;
+            this.btn_Add.Text = "Add";
+            this.btn_Add.UseVisualStyleBackColor = true;
+            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
+            // 
+            // listView1
+            // 
+            this.listView1.Location = new System.Drawing.Point(489, 63);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(121, 97);
+            this.listView1.TabIndex = 7;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.btn_Add);
             this.Controls.Add(this.btn_Calculate);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -115,6 +138,8 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button btn_Calculate;
+        private System.Windows.Forms.Button btn_Add;
+        private System.Windows.Forms.ListView listView1;
     }
 }
 
