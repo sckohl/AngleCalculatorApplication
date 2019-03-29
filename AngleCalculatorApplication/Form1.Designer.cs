@@ -33,9 +33,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.btn_Calculate = new System.Windows.Forms.Button();
-            this.btn_Add = new System.Windows.Forms.Button();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.btn_Multiply = new System.Windows.Forms.Button();
+            this.btn_Addition = new System.Windows.Forms.Button();
+            this.btn_Division = new System.Windows.Forms.Button();
+            this.btn_Subtraction = new System.Windows.Forms.Button();
+            this.SnellCalc = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_HelloWord
@@ -81,43 +84,76 @@
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 4;
             // 
-            // btn_Calculate
+            // listBox1
             // 
-            this.btn_Calculate.Location = new System.Drawing.Point(320, 355);
-            this.btn_Calculate.Name = "btn_Calculate";
-            this.btn_Calculate.Size = new System.Drawing.Size(75, 23);
-            this.btn_Calculate.TabIndex = 5;
-            this.btn_Calculate.Text = "Calculate";
-            this.btn_Calculate.UseVisualStyleBackColor = true;
-            this.btn_Calculate.Click += new System.EventHandler(this.btn_Calculate_Click);
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(440, 111);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(120, 95);
+            this.listBox1.TabIndex = 8;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
-            // btn_Add
+            // btn_Multiply
             // 
-            this.btn_Add.Location = new System.Drawing.Point(320, 394);
-            this.btn_Add.Name = "btn_Add";
-            this.btn_Add.Size = new System.Drawing.Size(75, 23);
-            this.btn_Add.TabIndex = 6;
-            this.btn_Add.Text = "Add";
-            this.btn_Add.UseVisualStyleBackColor = true;
-            this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
+            this.btn_Multiply.Location = new System.Drawing.Point(320, 355);
+            this.btn_Multiply.Name = "btn_Multiply";
+            this.btn_Multiply.Size = new System.Drawing.Size(75, 23);
+            this.btn_Multiply.TabIndex = 9;
+            this.btn_Multiply.Text = "Multiply";
+            this.btn_Multiply.UseVisualStyleBackColor = true;
+            this.btn_Multiply.Click += new System.EventHandler(this.btn_Multiply_Click);
             // 
-            // listView1
+            // btn_Addition
             // 
-            this.listView1.Location = new System.Drawing.Point(489, 63);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(121, 97);
-            this.listView1.TabIndex = 7;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
+            this.btn_Addition.Location = new System.Drawing.Point(416, 355);
+            this.btn_Addition.Name = "btn_Addition";
+            this.btn_Addition.Size = new System.Drawing.Size(75, 23);
+            this.btn_Addition.TabIndex = 10;
+            this.btn_Addition.Text = "Add";
+            this.btn_Addition.UseVisualStyleBackColor = true;
+            this.btn_Addition.Click += new System.EventHandler(this.btn_Addition_Click);
+            // 
+            // btn_Division
+            // 
+            this.btn_Division.Location = new System.Drawing.Point(320, 393);
+            this.btn_Division.Name = "btn_Division";
+            this.btn_Division.Size = new System.Drawing.Size(75, 23);
+            this.btn_Division.TabIndex = 12;
+            this.btn_Division.Text = "Divide";
+            this.btn_Division.UseVisualStyleBackColor = true;
+            this.btn_Division.Click += new System.EventHandler(this.btn_Division_Click);
+            // 
+            // btn_Subtraction
+            // 
+            this.btn_Subtraction.Location = new System.Drawing.Point(416, 393);
+            this.btn_Subtraction.Name = "btn_Subtraction";
+            this.btn_Subtraction.Size = new System.Drawing.Size(75, 23);
+            this.btn_Subtraction.TabIndex = 13;
+            this.btn_Subtraction.Text = "Subtract";
+            this.btn_Subtraction.UseVisualStyleBackColor = true;
+            this.btn_Subtraction.Click += new System.EventHandler(this.btn_Subtraction_Click);
+            // 
+            // SnellCalc
+            // 
+            this.SnellCalc.Location = new System.Drawing.Point(621, 371);
+            this.SnellCalc.Name = "SnellCalc";
+            this.SnellCalc.Size = new System.Drawing.Size(118, 45);
+            this.SnellCalc.TabIndex = 14;
+            this.SnellCalc.Text = "Snell Calculator";
+            this.SnellCalc.UseVisualStyleBackColor = true;
+            this.SnellCalc.Click += new System.EventHandler(this.SnellCalc_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.listView1);
-            this.Controls.Add(this.btn_Add);
-            this.Controls.Add(this.btn_Calculate);
+            this.Controls.Add(this.SnellCalc);
+            this.Controls.Add(this.btn_Subtraction);
+            this.Controls.Add(this.btn_Division);
+            this.Controls.Add(this.btn_Addition);
+            this.Controls.Add(this.btn_Multiply);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
@@ -137,9 +173,12 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button btn_Calculate;
-        private System.Windows.Forms.Button btn_Add;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button btn_Multiply;
+        private System.Windows.Forms.Button btn_Addition;
+        private System.Windows.Forms.Button btn_Division;
+        private System.Windows.Forms.Button btn_Subtraction;
+        private System.Windows.Forms.Button SnellCalc;
     }
 }
 

@@ -1,0 +1,14 @@
+C:\Users\SamKohl.UMPQ\source\repos\AngleCalculatorApplication-master\AngleCalculatorApplication\bin\Debug\AngleCalculatorApplication.exe.config
+C:\Users\SamKohl.UMPQ\source\repos\AngleCalculatorApplication-master\AngleCalculatorApplication\bin\Debug\AngleCalculatorApplication.exe
+C:\Users\SamKohl.UMPQ\source\repos\AngleCalculatorApplication-master\AngleCalculatorApplication\bin\Debug\AngleCalculatorApplication.pdb
+C:\Users\SamKohl.UMPQ\source\repos\AngleCalculatorApplication-master\AngleCalculatorApplication\bin\Debug\DataProcessing.dll
+C:\Users\SamKohl.UMPQ\source\repos\AngleCalculatorApplication-master\AngleCalculatorApplication\bin\Debug\DataProcessing.pdb
+C:\Users\SamKohl.UMPQ\source\repos\AngleCalculatorApplication-master\AngleCalculatorApplication\obj\Debug\AngleCalculatorApplication.csprojAssemblyReference.cache
+C:\Users\SamKohl.UMPQ\source\repos\AngleCalculatorApplication-master\AngleCalculatorApplication\obj\Debug\AngleCalculatorApplication.Form1.resources
+C:\Users\SamKohl.UMPQ\source\repos\AngleCalculatorApplication-master\AngleCalculatorApplication\obj\Debug\AngleCalculatorApplication.Properties.Resources.resources
+C:\Users\SamKohl.UMPQ\source\repos\AngleCalculatorApplication-master\AngleCalculatorApplication\obj\Debug\AngleCalculatorApplication.csproj.GenerateResource.cache
+C:\Users\SamKohl.UMPQ\source\repos\AngleCalculatorApplication-master\AngleCalculatorApplication\obj\Debug\AngleCalculatorApplication.csproj.CoreCompileInputs.cache
+C:\Users\SamKohl.UMPQ\source\repos\AngleCalculatorApplication-master\AngleCalculatorApplication\obj\Debug\AngleCalculatorApplication.csproj.CopyComplete
+C:\Users\SamKohl.UMPQ\source\repos\AngleCalculatorApplication-master\AngleCalculatorApplication\obj\Debug\AngleCalculatorApplication.exe
+C:\Users\SamKohl.UMPQ\source\repos\AngleCalculatorApplication-master\AngleCalculatorApplication\obj\Debug\AngleCalculatorApplication.pdb
+C:\Users\SamKohl.UMPQ\source\repos\AngleCalculatorApplication-master\AngleCalculatorApplication\obj\Debug\AngleCalculatorApplication.FormSnellCalculator.resources
